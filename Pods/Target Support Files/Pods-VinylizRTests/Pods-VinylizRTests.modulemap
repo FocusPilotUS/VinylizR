@@ -1,0 +1,6 @@
+framework module Pods_VinylizRTests {
+  umbrella header "Pods-VinylizRTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

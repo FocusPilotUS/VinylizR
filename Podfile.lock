@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Material (2.3.7):
+    - Material/Core (= 2.3.7)
+  - Material/Core (2.3.7)
+  - Realm (2.0.3):
+    - Realm/Headers (= 2.0.3)
+  - Realm/Headers (2.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - Material
+  - Realm
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Material: b0aa466c72931f6dc3854a059e086455f4103a28
+  Realm: 5f008bfe3c8c47142eddfc30b8c1584cde22db24
+
+PODFILE CHECKSUM: fc3a54f11f4d6fc4e3cb679f219dd199f6bb3eba
+
+COCOAPODS: 1.1.1

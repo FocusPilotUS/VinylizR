@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B00169685FBC0058CE24286 /* Pods_VinylizRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48881302BEEC951033F8EE5D /* Pods_VinylizRTests.framework */; };
+		9401BE281DDD5249002E444B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401BE271DDD5249002E444B /* Constants.swift */; };
+		9401BE2A1DDD5CEE002E444B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401BE291DDD5CEE002E444B /* LoginViewController.swift */; };
 		94982D641DDD4AD0006F7019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D631DDD4AD0006F7019 /* AppDelegate.swift */; };
 		94982D661DDD4AD0006F7019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D651DDD4AD0006F7019 /* ViewController.swift */; };
 		94982D691DDD4AD0006F7019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D671DDD4AD0006F7019 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		94982D6E1DDD4AD1006F7019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */; };
 		94982D791DDD4AD1006F7019 /* VinylizRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D781DDD4AD1006F7019 /* VinylizRTests.swift */; };
 		94982D841DDD4AD1006F7019 /* VinylizRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D831DDD4AD1006F7019 /* VinylizRUITests.swift */; };
+		A9FB5A3A00E6888311BEB2A0 /* Pods_VinylizRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1224C46498DA060905FD225 /* Pods_VinylizRUITests.framework */; };
+		C01B9FB7AD2CDF1E88E43276 /* Pods_VinylizR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7418F88876F42FFA487D756C /* Pods_VinylizR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA7C49C557DA6CDA3E83290 /* Pods-VinylizRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizRUITests/Pods-VinylizRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48881302BEEC951033F8EE5D /* Pods_VinylizRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinylizRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7418F88876F42FFA487D756C /* Pods_VinylizR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinylizR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4AE598833BE3EA8C6B02DD /* Pods-VinylizRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizRTests/Pods-VinylizRTests.release.xcconfig"; sourceTree = "<group>"; };
+		9401BE271DDD5249002E444B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9401BE291DDD5CEE002E444B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		94982D601DDD4AD0006F7019 /* VinylizR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinylizR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94982D631DDD4AD0006F7019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94982D651DDD4AD0006F7019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		94982D7F1DDD4AD1006F7019 /* VinylizRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinylizRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94982D831DDD4AD1006F7019 /* VinylizRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylizRUITests.swift; sourceTree = "<group>"; };
 		94982D851DDD4AD1006F7019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E992595A8C231DF17EAECD /* Pods-VinylizR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizR/Pods-VinylizR.debug.xcconfig"; sourceTree = "<group>"; };
+		B6678556D1D6ECF8DC3A4687 /* Pods-VinylizRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizRUITests/Pods-VinylizRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1224C46498DA060905FD225 /* Pods_VinylizRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinylizRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3D8415A919E8D52F956086 /* Pods-VinylizR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizR.release.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizR/Pods-VinylizR.release.xcconfig"; sourceTree = "<group>"; };
+		FD472C8AFD2A65C8B9C48383 /* Pods-VinylizRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizRTests/Pods-VinylizRTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01B9FB7AD2CDF1E88E43276 /* Pods_VinylizR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B00169685FBC0058CE24286 /* Pods_VinylizRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FB5A3A00E6888311BEB2A0 /* Pods_VinylizRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6429034F3B7DE1D17BAF87D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4E992595A8C231DF17EAECD /* Pods-VinylizR.debug.xcconfig */,
+				FC3D8415A919E8D52F956086 /* Pods-VinylizR.release.xcconfig */,
+				FD472C8AFD2A65C8B9C48383 /* Pods-VinylizRTests.debug.xcconfig */,
+				8B4AE598833BE3EA8C6B02DD /* Pods-VinylizRTests.release.xcconfig */,
+				0AA7C49C557DA6CDA3E83290 /* Pods-VinylizRUITests.debug.xcconfig */,
+				B6678556D1D6ECF8DC3A4687 /* Pods-VinylizRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94982D571DDD4AD0006F7019 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				94982D771DDD4AD1006F7019 /* VinylizRTests */,
 				94982D821DDD4AD1006F7019 /* VinylizRUITests */,
 				94982D611DDD4AD0006F7019 /* Products */,
+				6429034F3B7DE1D17BAF87D3 /* Pods */,
+				BFE2082BAA293980F28D0636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +137,8 @@
 				94982D6A1DDD4AD0006F7019 /* Assets.xcassets */,
 				94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */,
 				94982D6F1DDD4AD1006F7019 /* Info.plist */,
+				9401BE271DDD5249002E444B /* Constants.swift */,
+				9401BE291DDD5CEE002E444B /* LoginViewController.swift */,
 			);
 			path = VinylizR;
 			sourceTree = "<group>";
@@ -125,6 +161,16 @@
 			path = VinylizRUITests;
 			sourceTree = "<group>";
 		};
+		BFE2082BAA293980F28D0636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7418F88876F42FFA487D756C /* Pods_VinylizR.framework */,
+				48881302BEEC951033F8EE5D /* Pods_VinylizRTests.framework */,
+				F1224C46498DA060905FD225 /* Pods_VinylizRUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94982D881DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizR" */;
 			buildPhases = (
+				1762D5A1CEF0B0EE05D470CA /* [CP] Check Pods Manifest.lock */,
 				94982D5C1DDD4AD0006F7019 /* Sources */,
 				94982D5D1DDD4AD0006F7019 /* Frameworks */,
 				94982D5E1DDD4AD0006F7019 /* Resources */,
+				33EB87EAB7995D3F699B3970 /* [CP] Embed Pods Frameworks */,
+				9137754847CDE3AAFD0B9B76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94982D8B1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRTests" */;
 			buildPhases = (
+				7F6ED90F0DF9259A7C42042A /* [CP] Check Pods Manifest.lock */,
 				94982D701DDD4AD1006F7019 /* Sources */,
 				94982D711DDD4AD1006F7019 /* Frameworks */,
 				94982D721DDD4AD1006F7019 /* Resources */,
+				971D516E43E2C55078FB95B3 /* [CP] Embed Pods Frameworks */,
+				3AD0C6F244EF4BD02F6A9369 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94982D8E1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRUITests" */;
 			buildPhases = (
+				CC485A8415161EF7478B7744 /* [CP] Check Pods Manifest.lock */,
 				94982D7B1DDD4AD1006F7019 /* Sources */,
 				94982D7C1DDD4AD1006F7019 /* Frameworks */,
 				94982D7D1DDD4AD1006F7019 /* Resources */,
+				D0313D452E95DFB02F845DC6 /* [CP] Embed Pods Frameworks */,
+				37BA76F2410678F384477894 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +312,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1762D5A1CEF0B0EE05D470CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33EB87EAB7995D3F699B3970 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylizR/Pods-VinylizR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37BA76F2410678F384477894 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylizRUITests/Pods-VinylizRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AD0C6F244EF4BD02F6A9369 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylizRTests/Pods-VinylizRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6ED90F0DF9259A7C42042A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9137754847CDE3AAFD0B9B76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylizR/Pods-VinylizR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971D516E43E2C55078FB95B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylizRTests/Pods-VinylizRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC485A8415161EF7478B7744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0313D452E95DFB02F845DC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylizRUITests/Pods-VinylizRUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94982D5C1DDD4AD0006F7019 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9401BE2A1DDD5CEE002E444B /* LoginViewController.swift in Sources */,
 				94982D661DDD4AD0006F7019 /* ViewController.swift in Sources */,
 				94982D641DDD4AD0006F7019 /* AppDelegate.swift in Sources */,
+				9401BE281DDD5249002E444B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,32 +608,39 @@
 		};
 		94982D891DDD4AD1006F7019 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E992595A8C231DF17EAECD /* Pods-VinylizR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4WGZ2NW47K;
 				INFOPLIST_FILE = VinylizR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		94982D8A1DDD4AD1006F7019 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3D8415A919E8D52F956086 /* Pods-VinylizR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4WGZ2NW47K;
 				INFOPLIST_FILE = VinylizR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		94982D8C1DDD4AD1006F7019 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD472C8AFD2A65C8B9C48383 /* Pods-VinylizRTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +656,7 @@
 		};
 		94982D8D1DDD4AD1006F7019 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4AE598833BE3EA8C6B02DD /* Pods-VinylizRTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +672,7 @@
 		};
 		94982D8F1DDD4AD1006F7019 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA7C49C557DA6CDA3E83290 /* Pods-VinylizRUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4WGZ2NW47K;
@@ -483,6 +687,7 @@
 		};
 		94982D901DDD4AD1006F7019 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6678556D1D6ECF8DC3A4687 /* Pods-VinylizRUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4WGZ2NW47K;
@@ -514,6 +719,7 @@
 				94982D8A1DDD4AD1006F7019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94982D8B1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +728,7 @@
 				94982D8D1DDD4AD1006F7019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94982D8E1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +737,7 @@
 				94982D901DDD4AD1006F7019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
