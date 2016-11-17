@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94982D641DDD4AD0006F7019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D631DDD4AD0006F7019 /* AppDelegate.swift */; };
+		94982D661DDD4AD0006F7019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D651DDD4AD0006F7019 /* ViewController.swift */; };
+		94982D691DDD4AD0006F7019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D671DDD4AD0006F7019 /* Main.storyboard */; };
+		94982D6B1DDD4AD0006F7019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94982D6A1DDD4AD0006F7019 /* Assets.xcassets */; };
+		94982D6E1DDD4AD1006F7019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */; };
+		94982D791DDD4AD1006F7019 /* VinylizRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D781DDD4AD1006F7019 /* VinylizRTests.swift */; };
+		94982D841DDD4AD1006F7019 /* VinylizRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D831DDD4AD1006F7019 /* VinylizRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94982D751DDD4AD1006F7019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94982D581DDD4AD0006F7019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94982D5F1DDD4AD0006F7019;
+			remoteInfo = VinylizR;
+		};
+		94982D801DDD4AD1006F7019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94982D581DDD4AD0006F7019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94982D5F1DDD4AD0006F7019;
+			remoteInfo = VinylizR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94982D601DDD4AD0006F7019 /* VinylizR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinylizR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94982D631DDD4AD0006F7019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94982D651DDD4AD0006F7019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94982D681DDD4AD0006F7019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94982D6A1DDD4AD0006F7019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94982D6D1DDD4AD1006F7019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94982D6F1DDD4AD1006F7019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94982D741DDD4AD1006F7019 /* VinylizRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinylizRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94982D781DDD4AD1006F7019 /* VinylizRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylizRTests.swift; sourceTree = "<group>"; };
+		94982D7A1DDD4AD1006F7019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94982D7F1DDD4AD1006F7019 /* VinylizRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinylizRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94982D831DDD4AD1006F7019 /* VinylizRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylizRUITests.swift; sourceTree = "<group>"; };
+		94982D851DDD4AD1006F7019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94982D5D1DDD4AD0006F7019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94982D711DDD4AD1006F7019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94982D7C1DDD4AD1006F7019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94982D571DDD4AD0006F7019 = {
+			isa = PBXGroup;
+			children = (
+				94982D621DDD4AD0006F7019 /* VinylizR */,
+				94982D771DDD4AD1006F7019 /* VinylizRTests */,
+				94982D821DDD4AD1006F7019 /* VinylizRUITests */,
+				94982D611DDD4AD0006F7019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94982D611DDD4AD0006F7019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94982D601DDD4AD0006F7019 /* VinylizR.app */,
+				94982D741DDD4AD1006F7019 /* VinylizRTests.xctest */,
+				94982D7F1DDD4AD1006F7019 /* VinylizRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94982D621DDD4AD0006F7019 /* VinylizR */ = {
+			isa = PBXGroup;
+			children = (
+				94982D631DDD4AD0006F7019 /* AppDelegate.swift */,
+				94982D651DDD4AD0006F7019 /* ViewController.swift */,
+				94982D671DDD4AD0006F7019 /* Main.storyboard */,
+				94982D6A1DDD4AD0006F7019 /* Assets.xcassets */,
+				94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */,
+				94982D6F1DDD4AD1006F7019 /* Info.plist */,
+			);
+			path = VinylizR;
+			sourceTree = "<group>";
+		};
+		94982D771DDD4AD1006F7019 /* VinylizRTests */ = {
+			isa = PBXGroup;
+			children = (
+				94982D781DDD4AD1006F7019 /* VinylizRTests.swift */,
+				94982D7A1DDD4AD1006F7019 /* Info.plist */,
+			);
+			path = VinylizRTests;
+			sourceTree = "<group>";
+		};
+		94982D821DDD4AD1006F7019 /* VinylizRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94982D831DDD4AD1006F7019 /* VinylizRUITests.swift */,
+				94982D851DDD4AD1006F7019 /* Info.plist */,
+			);
+			path = VinylizRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94982D5F1DDD4AD0006F7019 /* VinylizR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94982D881DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizR" */;
+			buildPhases = (
+				94982D5C1DDD4AD0006F7019 /* Sources */,
+				94982D5D1DDD4AD0006F7019 /* Frameworks */,
+				94982D5E1DDD4AD0006F7019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinylizR;
+			productName = VinylizR;
+			productReference = 94982D601DDD4AD0006F7019 /* VinylizR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94982D731DDD4AD1006F7019 /* VinylizRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94982D8B1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRTests" */;
+			buildPhases = (
+				94982D701DDD4AD1006F7019 /* Sources */,
+				94982D711DDD4AD1006F7019 /* Frameworks */,
+				94982D721DDD4AD1006F7019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94982D761DDD4AD1006F7019 /* PBXTargetDependency */,
+			);
+			name = VinylizRTests;
+			productName = VinylizRTests;
+			productReference = 94982D741DDD4AD1006F7019 /* VinylizRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94982D7E1DDD4AD1006F7019 /* VinylizRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94982D8E1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRUITests" */;
+			buildPhases = (
+				94982D7B1DDD4AD1006F7019 /* Sources */,
+				94982D7C1DDD4AD1006F7019 /* Frameworks */,
+				94982D7D1DDD4AD1006F7019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94982D811DDD4AD1006F7019 /* PBXTargetDependency */,
+			);
+			name = VinylizRUITests;
+			productName = VinylizRUITests;
+			productReference = 94982D7F1DDD4AD1006F7019 /* VinylizRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94982D581DDD4AD0006F7019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nathan Turner";
+				TargetAttributes = {
+					94982D5F1DDD4AD0006F7019 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4WGZ2NW47K;
+						ProvisioningStyle = Automatic;
+					};
+					94982D731DDD4AD1006F7019 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4WGZ2NW47K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94982D5F1DDD4AD0006F7019;
+					};
+					94982D7E1DDD4AD1006F7019 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4WGZ2NW47K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94982D5F1DDD4AD0006F7019;
+					};
+				};
+			};
+			buildConfigurationList = 94982D5B1DDD4AD0006F7019 /* Build configuration list for PBXProject "VinylizR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94982D571DDD4AD0006F7019;
+			productRefGroup = 94982D611DDD4AD0006F7019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94982D5F1DDD4AD0006F7019 /* VinylizR */,
+				94982D731DDD4AD1006F7019 /* VinylizRTests */,
+				94982D7E1DDD4AD1006F7019 /* VinylizRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94982D5E1DDD4AD0006F7019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94982D6E1DDD4AD1006F7019 /* LaunchScreen.storyboard in Resources */,
+				94982D6B1DDD4AD0006F7019 /* Assets.xcassets in Resources */,
+				94982D691DDD4AD0006F7019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94982D721DDD4AD1006F7019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94982D7D1DDD4AD1006F7019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94982D5C1DDD4AD0006F7019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94982D661DDD4AD0006F7019 /* ViewController.swift in Sources */,
+				94982D641DDD4AD0006F7019 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94982D701DDD4AD1006F7019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94982D791DDD4AD1006F7019 /* VinylizRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94982D7B1DDD4AD1006F7019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94982D841DDD4AD1006F7019 /* VinylizRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94982D761DDD4AD1006F7019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94982D5F1DDD4AD0006F7019 /* VinylizR */;
+			targetProxy = 94982D751DDD4AD1006F7019 /* PBXContainerItemProxy */;
+		};
+		94982D811DDD4AD1006F7019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94982D5F1DDD4AD0006F7019 /* VinylizR */;
+			targetProxy = 94982D801DDD4AD1006F7019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94982D671DDD4AD0006F7019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94982D681DDD4AD0006F7019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94982D6D1DDD4AD1006F7019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94982D861DDD4AD1006F7019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94982D871DDD4AD1006F7019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94982D891DDD4AD1006F7019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WGZ2NW47K;
+				INFOPLIST_FILE = VinylizR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94982D8A1DDD4AD1006F7019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WGZ2NW47K;
+				INFOPLIST_FILE = VinylizR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94982D8C1DDD4AD1006F7019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WGZ2NW47K;
+				INFOPLIST_FILE = VinylizRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinylizR.app/VinylizR";
+			};
+			name = Debug;
+		};
+		94982D8D1DDD4AD1006F7019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WGZ2NW47K;
+				INFOPLIST_FILE = VinylizRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinylizR.app/VinylizR";
+			};
+			name = Release;
+		};
+		94982D8F1DDD4AD1006F7019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4WGZ2NW47K;
+				INFOPLIST_FILE = VinylizRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VinylizR;
+			};
+			name = Debug;
+		};
+		94982D901DDD4AD1006F7019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4WGZ2NW47K;
+				INFOPLIST_FILE = VinylizRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TBD.VinylizRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VinylizR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94982D5B1DDD4AD0006F7019 /* Build configuration list for PBXProject "VinylizR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94982D861DDD4AD1006F7019 /* Debug */,
+				94982D871DDD4AD1006F7019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94982D881DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94982D891DDD4AD1006F7019 /* Debug */,
+				94982D8A1DDD4AD1006F7019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94982D8B1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94982D8C1DDD4AD1006F7019 /* Debug */,
+				94982D8D1DDD4AD1006F7019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94982D8E1DDD4AD1006F7019 /* Build configuration list for PBXNativeTarget "VinylizRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94982D8F1DDD4AD1006F7019 /* Debug */,
+				94982D901DDD4AD1006F7019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94982D581DDD4AD0006F7019 /* Project object */;
+}
