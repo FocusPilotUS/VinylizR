@@ -17,6 +17,7 @@
 		94982D6E1DDD4AD1006F7019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */; };
 		94982D791DDD4AD1006F7019 /* VinylizRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D781DDD4AD1006F7019 /* VinylizRTests.swift */; };
 		94982D841DDD4AD1006F7019 /* VinylizRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D831DDD4AD1006F7019 /* VinylizRUITests.swift */; };
+		94AAEA551DDFEEF800C0FC72 /* recordspinning.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEA541DDFEEF800C0FC72 /* recordspinning.mp4 */; };
 		A9FB5A3A00E6888311BEB2A0 /* Pods_VinylizRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1224C46498DA060905FD225 /* Pods_VinylizRUITests.framework */; };
 		C01B9FB7AD2CDF1E88E43276 /* Pods_VinylizR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7418F88876F42FFA487D756C /* Pods_VinylizR.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		94982D7F1DDD4AD1006F7019 /* VinylizRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinylizRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94982D831DDD4AD1006F7019 /* VinylizRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylizRUITests.swift; sourceTree = "<group>"; };
 		94982D851DDD4AD1006F7019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94AAEA541DDFEEF800C0FC72 /* recordspinning.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = recordspinning.mp4; sourceTree = "<group>"; };
 		B4E992595A8C231DF17EAECD /* Pods-VinylizR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizR/Pods-VinylizR.debug.xcconfig"; sourceTree = "<group>"; };
 		B6678556D1D6ECF8DC3A4687 /* Pods-VinylizRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizRUITests/Pods-VinylizRUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F1224C46498DA060905FD225 /* Pods_VinylizRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinylizRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 		94982D621DDD4AD0006F7019 /* VinylizR */ = {
 			isa = PBXGroup;
 			children = (
+				94AAEA541DDFEEF800C0FC72 /* recordspinning.mp4 */,
 				94982D631DDD4AD0006F7019 /* AppDelegate.swift */,
 				94982D651DDD4AD0006F7019 /* ViewController.swift */,
 				94982D671DDD4AD0006F7019 /* Main.storyboard */,
@@ -292,6 +295,7 @@
 			files = (
 				94982D6E1DDD4AD1006F7019 /* LaunchScreen.storyboard in Resources */,
 				94982D6B1DDD4AD0006F7019 /* Assets.xcassets in Resources */,
+				94AAEA551DDFEEF800C0FC72 /* recordspinning.mp4 in Resources */,
 				94982D691DDD4AD0006F7019 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +535,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -581,6 +586,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -610,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4E992595A8C231DF17EAECD /* Pods-VinylizR.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4WGZ2NW47K;
 				INFOPLIST_FILE = VinylizR/Info.plist;
@@ -626,6 +633,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC3D8415A919E8D52F956086 /* Pods-VinylizR.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4WGZ2NW47K;
 				INFOPLIST_FILE = VinylizR/Info.plist;
