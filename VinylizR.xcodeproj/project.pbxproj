@@ -10,9 +10,10 @@
 		2B00169685FBC0058CE24286 /* Pods_VinylizRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48881302BEEC951033F8EE5D /* Pods_VinylizRTests.framework */; };
 		9401BE281DDD5249002E444B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401BE271DDD5249002E444B /* Constants.swift */; };
 		9401BE2A1DDD5CEE002E444B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9401BE291DDD5CEE002E444B /* LoginViewController.swift */; };
+		9406D0011DE0F1C0004CA955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9406D0001DE0F1C0004CA955 /* Main.storyboard */; };
 		94982D641DDD4AD0006F7019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D631DDD4AD0006F7019 /* AppDelegate.swift */; };
 		94982D661DDD4AD0006F7019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D651DDD4AD0006F7019 /* ViewController.swift */; };
-		94982D691DDD4AD0006F7019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D671DDD4AD0006F7019 /* Main.storyboard */; };
+		94982D691DDD4AD0006F7019 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D671DDD4AD0006F7019 /* LoginScreen.storyboard */; };
 		94982D6B1DDD4AD0006F7019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94982D6A1DDD4AD0006F7019 /* Assets.xcassets */; };
 		94982D6E1DDD4AD1006F7019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */; };
 		94982D791DDD4AD1006F7019 /* VinylizRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94982D781DDD4AD1006F7019 /* VinylizRTests.swift */; };
@@ -46,10 +47,11 @@
 		8B4AE598833BE3EA8C6B02DD /* Pods-VinylizRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylizRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VinylizRTests/Pods-VinylizRTests.release.xcconfig"; sourceTree = "<group>"; };
 		9401BE271DDD5249002E444B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9401BE291DDD5CEE002E444B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9406D0001DE0F1C0004CA955 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		94982D601DDD4AD0006F7019 /* VinylizR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinylizR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94982D631DDD4AD0006F7019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94982D651DDD4AD0006F7019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94982D681DDD4AD0006F7019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94982D681DDD4AD0006F7019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginScreen.storyboard; sourceTree = "<group>"; };
 		94982D6A1DDD4AD0006F7019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94982D6D1DDD4AD1006F7019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94982D6F1DDD4AD1006F7019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,12 +138,13 @@
 				94AAEA541DDFEEF800C0FC72 /* recordspinning.mp4 */,
 				94982D631DDD4AD0006F7019 /* AppDelegate.swift */,
 				94982D651DDD4AD0006F7019 /* ViewController.swift */,
-				94982D671DDD4AD0006F7019 /* Main.storyboard */,
+				94982D671DDD4AD0006F7019 /* LoginScreen.storyboard */,
 				94982D6A1DDD4AD0006F7019 /* Assets.xcassets */,
 				94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */,
 				94982D6F1DDD4AD1006F7019 /* Info.plist */,
 				9401BE271DDD5249002E444B /* Constants.swift */,
 				9401BE291DDD5CEE002E444B /* LoginViewController.swift */,
+				9406D0001DE0F1C0004CA955 /* Main.storyboard */,
 			);
 			path = VinylizR;
 			sourceTree = "<group>";
@@ -294,9 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94982D6E1DDD4AD1006F7019 /* LaunchScreen.storyboard in Resources */,
+				9406D0011DE0F1C0004CA955 /* Main.storyboard in Resources */,
 				94982D6B1DDD4AD0006F7019 /* Assets.xcassets in Resources */,
 				94AAEA551DDFEEF800C0FC72 /* recordspinning.mp4 in Resources */,
-				94982D691DDD4AD0006F7019 /* Main.storyboard in Resources */,
+				94982D691DDD4AD0006F7019 /* LoginScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,12 +502,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		94982D671DDD4AD0006F7019 /* Main.storyboard */ = {
+		94982D671DDD4AD0006F7019 /* LoginScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				94982D681DDD4AD0006F7019 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LoginScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		94982D6C1DDD4AD1006F7019 /* LaunchScreen.storyboard */ = {
